@@ -1,0 +1,157 @@
+/* Reset default browser styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,p{
+    text-align: center;
+    margin: 15px;
+}
+
+h1{
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+p{
+  font-size: 25px;
+}
+/* Set a modern-looking font */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style the form container */
+
+form {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 30px;
+  background: linear-gradient(to bottom right, #C9E4F9, #FFFFFF);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the form heading */
+
+legend {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Style the form fields */
+
+label {
+  font-size: 1rem;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background-color: #F7F9FA;
+  color: #333;
+}
+
+/* Style the select dropdown */
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('https://www.flaticon.com/svg/static/icons/svg/25/25694.svg');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 20px;
+  padding-right: 30px;
+}
+
+/* Style the radio buttons */
+
+input[type="radio"] {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Style the submit and reset buttons */
+
+input[type="submit"],
+input[type="reset"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+input[type="reset"] {
+  margin-left: 10px;
+  background-color: #6c757d;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #0069d9;
+}
+
+/* Add responsive styles for smaller screens */
+
+@media (max-width: 768px) {
+  form {
+    padding: 20px;
+  }
+
+  legend {
+    font-size: 1.5rem;
+  }
+
+  label {
+    font-size: 0.9rem;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  select,
+  textarea {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+
+  select {
+    background-size: 15px;
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+
+  }
+}
+
+input[type="radio"] {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
