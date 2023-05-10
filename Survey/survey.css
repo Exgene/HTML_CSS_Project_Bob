@@ -14,6 +14,20 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   font-family: Arial, sans-serif;
+  margin: auto;
+  width: 50%;
+}
+
+label {
+  display: inline-block;
+}
+.main {
+  width: 140px;
+  /*text-align: right;*/
+}
+
+h1 {
+  text-align: center;
 }
 
 /* Add styles for the form container */
